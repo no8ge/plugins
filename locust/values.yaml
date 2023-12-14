@@ -1,0 +1,6 @@
+image: "no8ge/demo:1.0.0"
+command: "locust -f src --class-picker -H http://demo.default:8002"
+report: /demo/report 
+
+
+

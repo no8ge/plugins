@@ -8,7 +8,7 @@ spec:
     - name: {{ .Release.Name }}
       match:
         paths:
-          - /{{ .Release.Name }}/*
+          - /plugins/{{ .Release.Name }}/*
         methods:
           - GET
           - POST
@@ -24,7 +24,7 @@ spec:
           enable: true
           config:
             regex_uri:
-              - /{{ .Release.Name }}/*
+              - /plugins/{{ .Release.Name }}/*
               - /
       websocket: true
       backends:

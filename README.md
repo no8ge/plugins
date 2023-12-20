@@ -1,6 +1,12 @@
 # plugins
 
-将测试自动化构建为 Helm Chart，用来轻松部署测试工作负载。
+将测试自动化构建为 Helm Chart，用来轻松部署测试工作负载。已经实现了的封装
+
+- `pytest`
+- `locust`
+- `jmeter`
+- [`aomaker`](https://github.com/ae86sen/aomaker "aomaker")
+- `hatbox`
 
 ## 准备工作
 
